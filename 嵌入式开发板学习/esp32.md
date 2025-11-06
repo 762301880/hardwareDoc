@@ -48,8 +48,32 @@
 工具 → 开发板 → ESP32 Arduino → ESP32S3 Dev Module
 ```
 
+![image-20251106113106026](https://gitee.com/yaolliuyang/blogImages/raw/master/blogImages/image-20251106113106026.png)
+
 然后选择你的串口：
 
 ```
 工具 → 端口 → COMx（通常会显示你的开发板名）
 ```
+
+#  开发
+
+## helloworld
+
+> typec插右边那个  上传完毕后
+>
+> 选择**工具-串口监视器   波特率设置为 115200**  可以看到输出
+
+```php
+void setup() {
+  // put your setup code here, to run once:
+  Serial.begin(115200);
+  Serial.println("Hello, ESP32-S3!");
+}
+
+void loop() {
+  // put your main code here, to run repeatedly:
+  delay(10); // this speeds up the simulation
+}
+```
+
