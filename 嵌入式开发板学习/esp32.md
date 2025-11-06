@@ -4,6 +4,7 @@
 | ----------------- | ------------------------------------------------------------ |
 | espressif中文文档 | [link](https://docs.espressif.com/projects/esp-dev-kits/zh_CN/latest/esp32s3/index.html) |
 | esp32开发板选型   | [link](https://docs.espressif.com/projects/esp-techpedia/zh_CN/latest/esp-friends/get-started/board-selection.html) |
+| 第三方博客        | [link](https://docs.geeksman.com/esp32/Arduino/01.esp32-arduino-intro.html) |
 
 
 
