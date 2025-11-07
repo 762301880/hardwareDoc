@@ -67,15 +67,23 @@
 > 选择**工具-串口监视器   波特率设置为 115200**  可以看到输出
 
 ```php
+// 初始化函数，程序上电或复位后只运行一次
 void setup() {
-  // put your setup code here, to run once:
-  Serial.begin(115200);
-  Serial.println("Hello, ESP32-S3!");
+  // 初始化串口通信，设置波特率为115200（ESP32-S3常用的通信速率）
+  // 波特率需与串口监视器设置一致，否则会出现乱码
+  Serial.begin(115200);
+  
+  // 通过串口发送字符串"Hello, ESP32-S3!"并换行
+  // 用于验证串口通信是否正常，也可作为程序启动的标志
+  Serial.println("Hello, ESP32-S3!");
 }
 
+// 主循环函数，setup()执行完毕后会无限重复运行此函数内的代码
 void loop() {
-  // put your main code here, to run repeatedly:
-  delay(10); // this speeds up the simulation
+  // 延时10毫秒（1秒=1000毫秒）
+  // 注释中提到"this speeds up the simulation"是指在仿真环境中
+  // 适当的短延时可以避免程序过度占用仿真资源，让仿真更流畅
+  delay(10); 
 }
 ```
 
