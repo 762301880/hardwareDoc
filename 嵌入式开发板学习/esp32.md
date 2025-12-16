@@ -12,7 +12,7 @@
 
 ##  Arduino IDE
 
-到官网下载安装最新版本：
+到官网下载安装最新版本：(zip解压版本)
  👉 https://www.arduino.cc/en/software
 
 安装好后打开 Arduino IDE。
