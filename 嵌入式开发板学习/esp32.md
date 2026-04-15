@@ -1,11 +1,13 @@
 # 中文文档
 
-| 名称              | 地址                                                         |
-| ----------------- | ------------------------------------------------------------ |
-| espressif中文文档 | [link](https://docs.espressif.com/projects/esp-dev-kits/zh_CN/latest/esp32s3/index.html) |
-| esp32开发板选型   | [link](https://docs.espressif.com/projects/esp-techpedia/zh_CN/latest/esp-friends/get-started/board-selection.html) |
-| 第三方博客        | [link](https://docs.geeksman.com/esp32/Arduino/01.esp32-arduino-intro.html) |
-| api中文文档       | [link](https://docs.espressif.com/projects/esp-idf/zh_CN/latest/esp32s3/api-guides/index.html) |
+| 名称                         | 地址                                                         |
+| ---------------------------- | ------------------------------------------------------------ |
+| espressif中文文档            | [link](https://docs.espressif.com/projects/esp-dev-kits/zh_CN/latest/esp32s3/index.html) |
+| esp32开发板选型              | [link](https://docs.espressif.com/projects/esp-techpedia/zh_CN/latest/esp-friends/get-started/board-selection.html) |
+| 第三方博客                   | [link](https://docs.geeksman.com/esp32/Arduino/01.esp32-arduino-intro.html) |
+| api中文文档                  | [link](https://docs.espressif.com/projects/esp-idf/zh_CN/latest/esp32s3/api-guides/index.html) |
+| ESP-IDF 编程指南（重要）     | ESP-IDF 编程指南[](https://docs.espressif.com/projects/esp-idf/zh_CN/v6.0/esp32s3/index.html#esp-idf) |
+| esp32内置api接口文档（重要） | [link](https://github.com/espressif/arduino-esp32/blob/master/libraries/HTTPClient/src/HTTPClient.h) |
 
 
 
